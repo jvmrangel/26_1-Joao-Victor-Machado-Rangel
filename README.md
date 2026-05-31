@@ -1,0 +1,2 @@
+# 26_1-Joao-Victor-Machado-Rangel
+DETECÇÃO DE MISOGINIA EM MENSAGENS TEXTUAIS
