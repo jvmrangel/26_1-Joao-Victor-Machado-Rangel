@@ -13,13 +13,13 @@ Para executar todos os códigos precisa do apenas executar os ambientes através
 Para rodar:
 Rodar os notebooks em sequência.
 
-[Notebook 1](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
+[Notebook 1](Notebook 1 - Primeira_extração_do_forms.ipynb)
 
-[Notebook 2](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
+[Notebook 2](Notebook 2 - Criação da base de dados.ipynb)
 
-[Notebook 3](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
+[Notebook 3](Notebook 3 - Tratamento_da_tabela_classificação_Final.ipynb)
 
-[Notebook 4](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
+[Notebook 4](Notebook 4 - Treinamento_do_modelo.ipynb)
 
 # Descrição Geral
 Este estudo investiga a disseminação da misoginia nas redes sociais brasileiras e propõe
