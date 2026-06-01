@@ -3,15 +3,23 @@
 **Alunos: João Victor Machado Rangel** <!-- substitua pelos nomes dos alunos -->
 **Semestre de Defesa: 2026-1** <!-- ano-semestre, exemplo: 2025-2 -->
 
-[PDF do TCC](caminho_do_arquivo)
+[PDF do TCC](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
 
 
 # TL;DR
 
-<!-- Resumo super conciso para quem não quer ler o README e começar a executar o código -->
-Para rodar:
-```$ pm2 start ecosystem.config.js```
+Para executar todos os códigos precisa do apenas executar os ambientes através do Google Colab e os códigos dos notebooks anexados, sendo necessário dar upload nos CSVs nos respectivos ambientes.
 
+Para rodar:
+Rodar os notebooks em sequência.
+
+[Notebook 1](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
+
+[Notebook 2](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
+
+[Notebook 3](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
+
+[Notebook 4](Detecção_de_Misoginia_em_Mensagens_Textuais_CEFET_RJ_TCC2.pdf)
 
 # Descrição Geral
 Este estudo investiga a disseminação da misoginia nas redes sociais brasileiras e propõe
@@ -32,39 +40,33 @@ aprimoramento de sistemas de moderação de conteúdo no cenário brasileiro.
 
 # Funcionalidades
 <!-- Descreva as principais funcionalidades do seu código. Exemplo: -->
-* Funcionalidade principal 1
-   * detalhe a
-   * detalhe b
-   * detalhe c
-* Funcionalidade principal 2
-   * detalhe d
-   * detalhe e
+* Primeira extração das respostas do Forms 1
+* Criação da base de dados 2
+* Tratamento da tabela classificação 3
+* Treinamento do modelo supervisionado de classificação 4
 
 
 # Arquitetura
-<!-- Descreva nessa seção a arquitetura do seu código. Sugestão use mermaid para inclusão de diagramas que ajudem a entender seu código (https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) -->
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+A metodologia é estruturada em quatro grandes etapas: criação
+do léxico de termos misóginos, coleta de mensagens em redes sociais, método
+de rotulagem dos textos misóginos e avaliação inicial de modelos supervisionados de
+classificação. As etapas são ilustradas pela figura a seguir:
+
+<img width="878" height="241" alt="metodologia" src="https://github.com/user-attachments/assets/30ec0ed9-fedb-4703-a425-819d7ce0cff2" />
+
 
 # Dependências
 
+
 <!-- Apresente a lista de dependências do seu código. Quando necessário, incluia links. Exemplo: -->
-* Mosquitto MQTT Broker
-* Node JS
-* [PM2](https://pm2.keymetrics.io)
-* [NW.js](https://nwjs.io)
-* [FFmpeg](https://ffmpeg.org)
+* Google Colab
+* Todas as dependências são automaticamente instaladas na máquina virtual do Google Colab
 
 
 # Execução
 
 <!-- Descreva como instalar/executar seu código. Exemplo: -->
-Componentes executados com PM2.
-```$ pm2 start ecosystem.config.js```
+Abra os notebooks no google colab e execute-os em sequência.
+
  
